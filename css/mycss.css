@@ -1,0 +1,39 @@
+.resume-section {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.resume-image {
+  flex: 0 0 150px;
+  margin-right: 2rem;
+}
+
+.resume-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.resume-content {
+  flex: 1;
+}
+
+.resume-content h2 {
+  margin-top: 0;
+}
+
+/* footer样式 */
+#footer {
+    background: #fff;
+    /* background: #fff url("/images/footer.jpg"); */
+    /* opacity: 0.3; */
+}
+#footer-wrap {
+    padding: 20px 20px;
+    /* color: var(--light-grey); */
+    color: #000;
+}
+#footer-wrap a{
+    color: #49b1f5;
+}
